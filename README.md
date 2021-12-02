@@ -15,10 +15,12 @@ Ref: [Deploying ML MOdel as a Flask App on Heroku](https://medium.com/analytics-
 6. git add and commit requirements.txt
 
 7. Create the pkl model file using model.py. Remember to create relevant directories (lib/models)
-8. Create app.py and main.html
-9. Add README.md with documentation
-10. Git add/commit these files.
-11. Create github repo and push these files to the repo
+8. Create app.py.
+9. Create main.html and store within a new 'template' directory.
+10. Do flask run and make sure the web app works
 
-12. 
+11. Add README.md with documentation
+12. Git add/commit these files.
+13. Create github repo and push these files to the repo
+ 
 
