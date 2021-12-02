@@ -4,10 +4,21 @@
 
 Ref: [Deploying ML MOdel as a Flask App on Heroku](https://medium.com/analytics-vidhya/deploying-a-machine-learning-model-as-a-flask-app-on-heroku-part-1-b5e194fed16d)
 
+[Virtual Environments](https://realpython.com/python-virtual-environments-a-primer/)
 
 ### Steps
-1. Create directory and git init 
-2. Create the pkl model file using model.py
-3. Create app.py and main.html
-4. Add README.md with documentation
-5. Git add/commit.
+1. Create directory and git init
+2. Run python -m venv env  
+3. Navigate to env/Scripts and run activate
+4. pip install pandas numpy scikit-learn flask gunicorn
+5. pip freeze > requirements.txt
+6. git add and commit requirements.txt
+
+7. Create the pkl model file using model.py. Remember to create relevant directories (lib/models)
+8. Create app.py and main.html
+9. Add README.md with documentation
+10. Git add/commit these files.
+11. Create github repo and push these files to the repo
+
+12. 
+
